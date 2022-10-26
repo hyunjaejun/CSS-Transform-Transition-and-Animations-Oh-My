@@ -28,15 +28,17 @@ nav {
 }
 
 @keyframes top {
-  from { transform: rotateZ(60deg);translate: -1px, 0;
+  from {
+    transform: rotateZ(60deg);
+    translate: -1px, 0;
     top: auto;
   }
 
-to {
+  to {
+  }
 }
-}
-@keyframes middle { 
-  from { transition: cubic-bezier(0.19, 1, 0.22, 1);
+@keyframes middle {
+  from {
   }
   to {
   }
